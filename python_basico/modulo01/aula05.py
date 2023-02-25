@@ -1,0 +1,5 @@
+texte = input ( "Digite alguma coisa")
+print("tem espaço: > " , texte.isspace())
+print("tem numero: >", texte.isnumeric())
+print("tem letras:> " ,texte.isalpha())
+print("tem letrasenumero:> ,",texte.isalnum)
